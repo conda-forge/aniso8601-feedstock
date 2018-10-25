@@ -1,6 +1,6 @@
 {% set name = "aniso8601" %}
-{% set version = "3.0.2" %}
-{% set sha256 = "7849749cf00ae0680ad2bdfe4419c7a662bef19c03691a19e008c8b9a5267802" %}
+{% set version = "4.0.1" %}
+{% set sha256 = "e7560de91bf00baa712b2550a2fdebf0188c5fce2fcd1162fbac75c19bb29c95" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:

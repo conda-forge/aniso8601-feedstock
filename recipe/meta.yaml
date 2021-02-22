@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://bitbucket.org/nielsenb/aniso8601
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: A library for parsing ISO 8601 strings.
 

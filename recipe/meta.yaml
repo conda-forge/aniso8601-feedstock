@@ -12,18 +12,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python>=2.7
+  noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=2.7
     - setuptools
 
   run:
-    - python
+    - python >=2.7
     - python-dateutil
 
 test:

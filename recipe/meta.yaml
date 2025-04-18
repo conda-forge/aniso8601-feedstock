@@ -1,6 +1,6 @@
 {% set name = "aniso8601" %}
-{% set version = "10.0.0" %}
-{% set sha256 = "ff1d0fc2346688c62c0151547136ac30e322896ed8af316ef7602c47da9426cf" %}
+{% set version = "10.0.1" %}
+{% set sha256 = "25488f8663dd1528ae1f54f94ac1ea51ae25b4d531539b8bc707fed184d16845" %}
 
 package:
   name: {{ name }}
